@@ -1,0 +1,106 @@
+/* Reset de Estilos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background-color: #ff5722; /* Cor laranja */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* Estilos das Seções */
+.section {
+    padding: 40px 0;
+}
+
+.hero {
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f44336; /* Cor vermelha */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.featured-properties {
+    background-color: #03a9f4; /* Cor azul */
+    text-align: center;
+}
+
+.property-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.property-card h3 {
+    margin-top: 10px;
+}
+
+.property-details {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.property-details li {
+    margin-bottom: 5px;
+}
+
+/* Estilos do Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
